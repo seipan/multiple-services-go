@@ -1,0 +1,38 @@
+version: api.keploy.io/v1beta1
+kind: Http
+name: test-1
+spec:
+    metadata: {}
+    req:
+        method: GET
+        proto_major: 1
+        proto_minor: 1
+        url: http://0.0.0.0:8081/cat
+        header:
+            Accept-Encoding: gzip
+            Host: 0.0.0.0:8081
+            User-Agent: Go-http-client/1.1
+        body: ""
+        timestamp: 2024-04-01T01:21:30.996959468+09:00
+    resp:
+        status_code: 200
+        header:
+            Content-Length: "16"
+            Content-Type: application/json; charset=utf-8
+            Date: Sun, 31 Mar 2024 16:21:30 GMT
+        body: '{"animal":"cat"}'
+        status_message: OK
+        proto_major: 0
+        proto_minor: 0
+        timestamp: 2024-04-01T01:21:33.089157622+09:00
+    objects: []
+    assertions:
+        noise:
+            header.Date: []
+    created: 1711902093
+curl: |
+    curl --request GET \
+      --url http://0.0.0.0:8081/cat \
+      --header 'Host: 0.0.0.0:8081' \
+      --header 'User-Agent: Go-http-client/1.1' \
+      --header 'Accept-Encoding: gzip' \

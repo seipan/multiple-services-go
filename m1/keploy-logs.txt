@@ -1,0 +1,7 @@
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	config file not found; proceeding with flags only
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	keploy initialized and probes added to the kernel.
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	Proxy started at port:16789
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	starting TCP DNS server at addr :26789
+🐰 Keploy: 2024-04-01T01:21:05+09:00 	[34mINFO[0m	starting UDP DNS server at addr :26789
+🐰 Keploy: 2024-04-01T01:21:33+09:00 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/home/yamasaki/multiple-services-go/m1/keploy/test-set-0/tests", "testcase name": "test-1"}
