@@ -31,3 +31,9 @@ response
 ```
 
 
+## Test
+### m1
+![Screenshot from 2024-04-01 15-33-12](https://github.com/seipan/multiple-services-go/assets/88176012/f508b62a-bae7-4961-80d0-e9260e63393f)
+
+### m2
+![Screenshot from 2024-04-01 15-53-19](https://github.com/seipan/multiple-services-go/assets/88176012/4cbf9571-aa11-4e13-8d54-5824f570d446)
