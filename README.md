@@ -39,6 +39,9 @@ response
 ![Screenshot from 2024-04-01 15-53-19](https://github.com/seipan/multiple-services-go/assets/88176012/4cbf9571-aa11-4e13-8d54-5824f570d446)
 
 ## Change M2
+In M2, breaking changes have been introduced, causing the tests to fail.
 ![Screenshot from 2024-04-01 16-52-53](https://github.com/seipan/multiple-services-go/assets/88176012/83edb6fa-ec3d-4611-bcd1-d49a438882d8)
+
+In M1, the tests should obviously fail (since the response from M2 has changed). However, since there have been no changes to M1's mock, the tests will pass.
 ![Screenshot from 2024-04-01 16-53-57](https://github.com/seipan/multiple-services-go/assets/88176012/cb375511-f3d2-44a0-9ff2-0da88fc89b28)
 
