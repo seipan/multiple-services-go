@@ -37,3 +37,8 @@ response
 
 ### m2
 ![Screenshot from 2024-04-01 15-53-19](https://github.com/seipan/multiple-services-go/assets/88176012/4cbf9571-aa11-4e13-8d54-5824f570d446)
+
+## Change M2
+![Screenshot from 2024-04-01 16-52-53](https://github.com/seipan/multiple-services-go/assets/88176012/83edb6fa-ec3d-4611-bcd1-d49a438882d8)
+![Screenshot from 2024-04-01 16-53-57](https://github.com/seipan/multiple-services-go/assets/88176012/cb375511-f3d2-44a0-9ff2-0da88fc89b28)
+
